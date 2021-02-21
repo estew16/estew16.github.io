@@ -1,0 +1,105 @@
+/*CSS DOCUMENT*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+img {
+    width: 100%; 
+
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+
+h1, h2, h3, p, a, figcaption {
+    font-family: sans-serif;
+    color: #555555;
+}
+
+h2{
+    color: #6995a7;
+    font-size: 1.75em;
+    padding: .5em .5em;
+    background-color: #fde7e8;
+}
+
+figcaption{
+    color: #888888;
+    margin: 0.5em .5em 1.5em .5em;
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 1.25em;
+}
+
+ul li a {
+    text-decoration: none;
+    display: inline;
+    color: #f7a8b5;
+}
+ul li a:hover{
+    color:#555555;
+}
+
+ul li.nav{
+    list-style-type: none;
+    display:inline;
+}
+.price {
+    padding: .25em 0em 0em 0em;
+    font-style: italic;
+}
+.description{
+    padding: 1em;
+}
+.info{
+    padding: 0.25em 1em;
+}
+.phone{
+    padding: 1em;
+}
+h1{
+    color: #6995a7; 
+    font-size: 2.25em;
+    Padding: .25em;
+}
+.current{
+    font-style: italic;
+    font-size: 1.1em;
+}
+h3{
+    padding: .25em;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #f7a8b5;
+        font-size: 1.25em;
+}
+.item{
+    padding: .25em 0em;
+    text-decoration: none;
+}
+.address{
+    margin: .25em .5em;
+    
+}
